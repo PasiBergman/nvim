@@ -1,3 +1,6 @@
+autoload/
+
+
 # Compiled Lua sources
 luac.out
 
