@@ -1,6 +1,12 @@
-" ========
+" =============================================================================
 " init.vim
-" ========
+"
+" Based on nvim repository by Christian Chiarulli
+" - https://github.com/ChristianChiarulli/nvim
+" See also his Blog and YouTube-channel
+" - https://www.chrisatmachine.com
+" - https://www.youtube.com/channel/UCS97tchJDq17Qms3cux8wcA
+" =============================================================================
 "
 " General settings
 " if !exists('g:vscode')
