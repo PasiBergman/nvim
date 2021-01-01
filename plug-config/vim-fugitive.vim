@@ -11,3 +11,4 @@ nmap <Leader>gd :Gvdiff<CR>
 nmap <Leader>gf :diffget //2<CR>
 " For merge conflict resolution. Take the left side change.
 nmap <Leader>gj :diffget //3<CR>
+"
