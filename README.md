@@ -2,7 +2,9 @@
 
 ## Installation
 
+```shell
 git clone git@github.com:PasiBergman/nvim.git ~/.config/nvim
+```
 
 ## Credits
 
