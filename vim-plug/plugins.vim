@@ -50,13 +50,14 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
     Plug 'yuki-ycino/fzf-preview.vim', { 'branch': 'release', 'do': ':UpdateRemotePlugins' }
     Plug 'junegunn/fzf.vim'
+    Plug 'stsewd/fzf-checkout.vim'
     " Git
-    Plug 'airblade/vim-gitgutter'
     Plug 'tpope/vim-fugitive'
-    Plug 'tpope/vim-rhubarb'
+    Plug 'airblade/vim-gitgutter'
     Plug 'junegunn/gv.vim'
     Plug 'rhysd/git-messenger.vim'
-    Plug 'cedarbaum/fugitive-azure-devops.vim'
+    Plug 'tpope/vim-rhubarb' " Gbrowse for github
+    Plug 'cedarbaum/fugitive-azure-devops.vim' "Gbrowse for Azure DevOps
     " Start Screen
     Plug 'mhinz/vim-startify'
     " Color visualizers

@@ -40,7 +40,7 @@ set guifont=JetBrainsMono\ Nerd\ Font:h13
 " set guifont=SauceCodePro\ Nerd\ Font:h13
 " set guifont=SauceCodePro\ Nerd\ Font\ Mono:h13
 set langmenu=en_US
-set listchars=tab:▸\ ,trail:·,precedes:←,extends:→,eol:↲,nbsp:␣
+set listchars=tab:▸\ ,trail:,precedes:←,extends:→,nbsp:␣  ",eol:↲
 set list
 
 let $LANG = 'en_US.UTF-8'
@@ -59,7 +59,7 @@ language en_US.UTF-8
 " set autochdir                           " Your working directory will always be the same as your working directory
 " set foldcolumn=2                        " Folding abilities
 
-au! BufWritePost $MYVIMRC source %      " auto source when writing to init.vm alternatively you can run :source $MYVIMRC
+" au! BufWritePost $MYVIMRC source %      " auto source when writing to init.vm alternatively you can run :source $MYVIMRC
 
 autocmd FileType * setlocal formatoptions-=c formatoptions-=r formatoptions-=o
 
