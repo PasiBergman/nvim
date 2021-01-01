@@ -4,6 +4,8 @@
 " View differences
 nmap <Leader>gd :Gvdiff<CR>
 
+"Make another dummy change.
+
 " Merge conflict resolution. Use 'dv' on the file on fugitive view
 " to start resolving merge conficts.
 
