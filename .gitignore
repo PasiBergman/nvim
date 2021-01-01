@@ -1,5 +1,8 @@
 autoload/
+session/
 
+slowsave
+.netrwhist
 
 # Compiled Lua sources
 luac.out

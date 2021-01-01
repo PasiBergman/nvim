@@ -36,8 +36,12 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'jiangmiao/auto-pairs'
     " Closetags
     Plug 'alvan/vim-closetag'
+    " Statusline
+    Plug 'vim-airline/vim-airline'
     " Themes
-    Plug 'christianchiarulli/nvcode-color-schemes.vim'
+    Plug 'joshdick/onedark.vim'
+    Plug 'tomasiser/vim-code-dark'
+    Plug 'vim-airline/vim-airline-themes'
     " Intellisense
     Plug 'neoclide/coc.nvim', {'branch': 'release'}
     " OmniSharp for C# support
@@ -52,8 +56,16 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'tpope/vim-rhubarb'
     Plug 'junegunn/gv.vim'
     Plug 'rhysd/git-messenger.vim'
+    Plug 'cedarbaum/fugitive-azure-devops.vim'
     " Start Screen
     Plug 'mhinz/vim-startify'
+    " Color visualizers
+    Plug 'junegunn/rainbow_parentheses.vim'
+    Plug 'norcalli/nvim-colorizer.lua'
+    " TypeScript syntax (highlighting)
+    Plug 'HerringtonDarkholme/yats.vim'
+    Plug 'liuchengxu/vim-which-key'
+    "
   endif
 
 call plug#end()
