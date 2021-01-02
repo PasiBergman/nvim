@@ -17,5 +17,16 @@ Cheatsheet for Neovim with the plugins and configurations in the repository.
 | `gcc` | N |Comment/Uncomment single line |
 | `gc`| N,V | Comment/Uncomment target motion, e.g. `gcap` for paragraph or selection in visual mode. |
 |  |  |  |
+
+## Search
+
+| Keymap | Mode | Usage |
+|--|--|--|
+| `noh` | N | Turn of search highlight until next search |
 |  |  |  |
 
+## Debugging
+
+|--|--|--|
+| `<F5>` | N | Start debugging |
+| `<F10>`  | N |  |

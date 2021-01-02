@@ -70,6 +70,9 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'liuchengxu/vim-which-key'
     "
     Plug 'voldikss/vim-floaterm'
-  endif
+    " Debugging
+    Plug 'puremourning/vimspector'
+    Plug 'szw/vim-maximizer'
+endif
 
 call plug#end()

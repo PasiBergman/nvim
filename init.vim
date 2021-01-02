@@ -5,7 +5,7 @@
 " - https://github.com/ChristianChiarulli/nvim
 " See also his Blog and YouTube-channel
 " - https://www.chrisatmachine.com
-" - https://www.youtube.com/channel/UCS97tchJDq17Qms3cux8wcA
+" - https://www.youtube.com/channel/UCS98tchJDq17Qms3cux8wcA
 " =============================================================================
 "
 " General settings
@@ -36,5 +36,6 @@ source $HOME/.config/nvim/plug-config/vim-fugitive.vim
 source $HOME/.config/nvim/plug-config/fzf-checkout.vim
 source $HOME/.config/nvim/plug-config/vim-floaterm.vim
 source $HOME/.config/nvim/plug-config/vim-commentary.vim
+source $HOME/.config/nvim/plug-config/vimspector.vim
 " Must be after theme selection
 source $HOME/.config/nvim/plug-config/vim-hexokinase.vim
