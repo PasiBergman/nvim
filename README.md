@@ -43,6 +43,16 @@ brew install "ripgrep"
 brew install "font-hack-nerd-font" --cask
 brew install "font-jetbrains-mono-nerd-font" --cask
 brew install "font-sauce-code-pro-nerd-font" --cask
+brew install python3
+# Using nvm to handle node virtual environments
+brew install nvm
+# Install python3 provider dependencies
+pip3 install pynvim
+pip3 install neovim-remote
+# Install latest node lts
+nvm install --lts
+# Install node dependencies
+npm install -g neovim
 ```
 
 ## Credits
