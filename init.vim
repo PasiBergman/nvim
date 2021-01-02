@@ -35,5 +35,6 @@ source $HOME/.config/nvim/plug-config/fugitive-azure-devops.vim
 source $HOME/.config/nvim/plug-config/vim-startify.vim
 source $HOME/.config/nvim/plug-config/vim-fugitive.vim
 source $HOME/.config/nvim/plug-config/fzf-checkout.vim
+source $HOME/.config/nvim/plug-config/vim-floaterm.vim
 " Must be after theme selection
 source $HOME/.config/nvim/plug-config/vim-hexokinase.vim

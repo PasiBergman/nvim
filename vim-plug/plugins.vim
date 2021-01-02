@@ -44,6 +44,8 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'vim-airline/vim-airline-themes'
     " Intellisense
     Plug 'neoclide/coc.nvim', {'branch': 'release'}
+    " Snippets
+    Plug 'honza/vim-snippets'
     " OmniSharp for C# support
     Plug 'OmniSharp/omnisharp-vim'
     " Fzf
@@ -67,6 +69,7 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'HerringtonDarkholme/yats.vim'
     Plug 'liuchengxu/vim-which-key'
     "
+    Plug 'voldikss/vim-floaterm'
   endif
 
 call plug#end()
