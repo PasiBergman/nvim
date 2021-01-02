@@ -21,7 +21,6 @@ source $HOME/.config/nvim/plug-config/easymotion.vim
 source $HOME/.config/nvim/plug-config/vim-surround.vim
 source $HOME/.config/nvim/plug-config/vim-rooter.vim
 source $HOME/.config/nvim/plug-config/vim-polyglot.vim
-source $HOME/.config/nvim/plug-config/tcomment.vim
 source $HOME/.config/nvim/plug-config/vim-repeat.vim
 source $HOME/.config/nvim/plug-config/vim-illuminate.vim
 source $HOME/.config/nvim/plug-config/coc/coc.vim
@@ -36,5 +35,6 @@ source $HOME/.config/nvim/plug-config/vim-startify.vim
 source $HOME/.config/nvim/plug-config/vim-fugitive.vim
 source $HOME/.config/nvim/plug-config/fzf-checkout.vim
 source $HOME/.config/nvim/plug-config/vim-floaterm.vim
+source $HOME/.config/nvim/plug-config/vim-commentary.vim
 " Must be after theme selection
 source $HOME/.config/nvim/plug-config/vim-hexokinase.vim

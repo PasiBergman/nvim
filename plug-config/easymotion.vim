@@ -13,18 +13,18 @@ nmap <silent> s <Plug>(easymotion-s2)
 nmap <silent> S <Plug>(easymotion-overwin-f2)
 
 " Move to line
-map <Leader>L <Plug>(easymotion-bd-jk)
-nmap <Leader>L <Plug>(easymotion-overwin-line)
+map <Leader>l <Plug>(easymotion-bd-jk)
+nmap <Leader>l <Plug>(easymotion-overwin-line)
 
 " Move to word
-map  <Leader>w <Plug>(easymotion-bd-w)
-nmap <Leader>w <Plug>(easymotion-overwin-w)
+" map  <Leader>w <Plug>(easymotion-bd-w)
+" nmap <Leader>w <Plug>(easymotion-overwin-w)
 
-hi EasyMotionTarget ctermbg=DarkGrey ctermfg=LightRed
+" hi EasyMotionTarget ctermbg=DarkGrey ctermfg=LightRed
 
 " hi link EasyMotionTarget ErrorMsg
 " hi link EasyMotionShade  Comment
-let g:EasyMotion_prompt = '🔎 '
+let g:EasyMotion_prompt = '🔎'
 
 " hi link EasyMotionMoveHL Search
 " hi link EasyMotionIncSearch Search

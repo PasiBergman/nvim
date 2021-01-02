@@ -27,7 +27,7 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'kyazdani42/nvim-web-devicons'
     Plug 'ryanoasis/vim-devicons'
     " TComment
-    Plug 'tomtom/tcomment_vim'
+    Plug 'tpope/vim-commentary'
     " Remap . so that plugins can tap into it
     Plug 'tpope/vim-repeat'
     " Highlight matches to word under cursor
