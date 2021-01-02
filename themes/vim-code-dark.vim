@@ -10,3 +10,9 @@ if (has("termguicolors"))
     set termguicolors
     hi LineNr ctermbg=NONE guibg=NONE
 endif
+
+" Change the red in diff deleted to more suitable for red-green colorbild.
+hi DiffDelete ctermfg=12 ctermbg=52 guifg=Blue guibg=#FF3300
+hi DiffChange ctermbg=52 guibg=#333333
+hi DiffAdd ctermbg=237 guibg=#525B3D
+hi DiffText ctermbg=52 guibg=#FF3300 " #6F1313
