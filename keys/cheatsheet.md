@@ -2,27 +2,12 @@
 
 Cheatsheet for Neovim with the plugins and configurations in the repository.
 
-## Folding
-
-| Keymap | Mode | Usage |
-|--|--|--|
-| `zf` | V | Create fold with the selection in visual mode |
-| `zo` | N | Open fold |
-| `zc` | N | Close fold |
-
 ## Comments (tpope/vim-commentary)
 
 | Keymap | Mode | Usage |
 |--|--|--|
 | `gcc` | N |Comment/Uncomment single line |
 | `gc`| N,V | Comment/Uncomment target motion, e.g. `gcap` for paragraph or selection in visual mode. |
-|  |  |  |
-
-## Search
-
-|·: Keymap | Mode | Usage |
-|--|--|--|
-| `noh` | N | Turn of search highlight until next search |
 |  |  |  |
 
 ## Debugging
@@ -44,4 +29,39 @@ let g:vimspector_enable_mappings = 'VISUAL_STUDIO'
 | `F10`             | Step Over                                                 | `vimspector#StepOver()` |
 | `F11`             | Step Into                                                 | `vimspector#StepInto()` |
 | `Shift F11`       | Step out of current function scope                        | `vimspector#StepOut()` |
+
+## Folding
+
+| Keymap | Mode | Usage |
+|--|--|--|
+| `zf` | V | Create fold with the selection in visual mode |
+| `zo` | N | Open fold |
+| `zc` | N | Close fold |
+
+## Search
+
+| Keymap | Mode | Usage |
+|--|--|--|
+| `noh` | N | Turn of search highlight until next search |
+|  |  |  |
+
+## Surround (tpope/vim-surround)
+
+| Keymap | Mode | Usage |
+|--|--|--|
+| `cs{from}{to}` | N | Change 'surrounds' {from} to {to}, e.g. `cs"'` to change from " to ' |
+| `cst{to}` | N | Change tag to {to}, e.g. `cst"` to change html-tag to " |
+| `ds{from}` | N | Delete {from} surrounds. |
+| `yss)` | N | Surround sentence with () |
+| `S{to}` | V | In visual mode, surround selection with {to} |
+| `ys{action}{to}` | N | Add {to} surrounds based on {action} |
+|  |  |  |
+
+## Visual mode
+
+| Keymap | Mode | Usage |
+|--|--|--|
+| `v` (lower) | V | Character mode |
+| `V` (upper) | V | Line mode |
+| `Ctrl+v` | V | Block mode |
 
