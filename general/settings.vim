@@ -2,6 +2,7 @@ set iskeyword+=-                        " treat dash separated words as a word t
 set formatoptions-=cro                  " Stop newline continution of comments
 
 syntax enable                           " Enables syntax highlighing
+filetype plugin on                      " Enable filetype based configurations/mappings
 set hidden                              " Required to keep multiple buffers open multiple buffers
 " set nowrap                              " Display long lines as just one line
 set whichwrap+=<,>,[,],h,l
@@ -68,4 +69,5 @@ autocmd FileType * setlocal formatoptions-=c formatoptions-=r formatoptions-=o
 " You can't stop me
 cmap w!! w !sudo tee %
 
-
+" Set viminfo (for startify)
+set shada=!,'100,n$HOME/.config/nvim/files/info/viminfo

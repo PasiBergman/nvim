@@ -86,3 +86,13 @@ endif
 " Better nav for omnicomplete
 inoremap <expr> <c-j> ("\<C-n>")
 inoremap <expr> <c-k> ("\<C-p>")
+
+" Help mappings simplify navigating the results of quickfix commands such as (among others) :helpgrep
+:nnoremap <S-F1>  :cc<CR>
+:nnoremap <F2>    :cnext<CR>
+:nnoremap <S-F2>  :cprev<CR>
+:nnoremap <F3>    :cnfile<CR>
+:nnoremap <S-F3>  :cpfile<CR>
+:nnoremap <F4>    :cfirst<CR>
+:nnoremap <S-F4>  :clast<CR>
+
