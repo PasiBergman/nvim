@@ -13,13 +13,9 @@ git clone git@github.com:PasiBergman/nvim.git $HOME/.config/nvim
 
 Add Vimspector adapters in nvim:
 
-```vim
-" Install .NET Core (C#) debugging adapter
-:VimspectorInstall netcoredbg
-" Install Python3 debugging adapter
-:VimspectorInstall debugpy
-" Install Node debugging adapter
-:VimspectorInstall vscode-node-debug2
+```viml
+" Install Vimspector debugging adapters
+:VimspectorInstall
 ```
 
 ## Dependencies
