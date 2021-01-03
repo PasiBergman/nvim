@@ -4,6 +4,13 @@ session/
 slowsave
 .netrwhist
 
+files/info/viminfo
+
+node_modules
+.sass_cache
+
+.DS_Store
+
 # Compiled Lua sources
 luac.out
 
