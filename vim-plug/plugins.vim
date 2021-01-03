@@ -6,6 +6,10 @@ if empty(glob('~/.config/nvim/autoload/plug.vim'))
 endif
 
 call plug#begin('~/.config/nvim/autoload/plugged')
+  " Easier comments
+  Plug 'tpope/vim-commentary'
+  " Remap . so that plugins can tap into it
+  Plug 'tpope/vim-repeat'
 
   if exists('g:vscode')
     " Easymotion for VSCode
@@ -26,12 +30,8 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     " Cool Icons
     Plug 'kyazdani42/nvim-web-devicons'
     Plug 'ryanoasis/vim-devicons'
-    " TComment
-    Plug 'tpope/vim-commentary'
-    " Remap . so that plugins can tap into it
-    Plug 'tpope/vim-repeat'
     " Highlight matches to word under cursor
-    Plug 'RRethy/vim-illuminate'
+    " Plug 'RRethy/vim-illuminate'
     " Auto pairs for '(' '[' '{'
     Plug 'jiangmiao/auto-pairs'
     " Closetags
@@ -39,9 +39,10 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     " Statusline
     Plug 'vim-airline/vim-airline'
     " Themes
-    Plug 'joshdick/onedark.vim'
+    " Plug 'joshdick/onedark.vim'
     Plug 'tomasiser/vim-code-dark'
     Plug 'vim-airline/vim-airline-themes'
+    " Plug 'altercation/vim-colors-solarized'
     " Intellisense
     Plug 'neoclide/coc.nvim', {'branch': 'release'}
     " Snippets
@@ -68,11 +69,19 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     " TypeScript syntax (highlighting)
     Plug 'HerringtonDarkholme/yats.vim'
     Plug 'liuchengxu/vim-which-key'
-    "
+    " Floating window
     Plug 'voldikss/vim-floaterm'
     " Debugging
     Plug 'puremourning/vimspector'
     Plug 'szw/vim-maximizer'
+    " Swift - pull in changes to Apple's Sift Vim plugin
+    " Plugin 'marcusglowe/vim-swift'
+    " Visualize undo paths/tree
+    " Plug 'mbbill/undotree'
+    " HTML/CSS live server
+    " Plug 'turbio/bracey.vim'
+    " Vue plugin
+    " Plug 'leafOfTree/vim-vue-plugin'
 endif
 
 call plug#end()

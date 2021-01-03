@@ -167,3 +167,5 @@ imap <C-j> <Plug>(coc-snippets-expand-jump)
 " Disable uncompatibility warning on neovim <= v0.4 and vim <= 8.0
 let g:coc_disable_startup_warning = 1
 
+" Setup Prettier
+command! -nargs=0 Prettier :CocCommand prettier.formatFile

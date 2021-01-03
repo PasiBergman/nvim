@@ -47,6 +47,13 @@ let g:vimspector_enable_mappings = 'VISUAL_STUDIO'
 | `]c` | N | Jump to next diff |
 | `[c` | N | Jump to previous diff |
 
+## Inserting/Appending
+
+| Keymap | Mode | Usage |
+|--|--|--|
+| `I` | N | Insert at the beginning of the line |
+| `ea` | N | Insert (append) at the end of the word |
+| `Ctrl+h` | I | Delete the character before cursor on the insert mode |
 
 ## Search
 
@@ -79,12 +86,14 @@ let g:vimspector_enable_mappings = 'VISUAL_STUDIO'
 | `:tabm #` | N | Move current tab to #th position (0-index) (:tabmove) |
 | `:tabc` | N | Close current tab (:tabclose)|
 | `:tabo` | N | Close all other tabs except current one (:tabonly) |
+| `:tab ba`| N | Edit all bufferes as tabs |
 |  |  |  |
 
 ## Visual mode
 
 | Keymap | Mode | Usage |
 |--|--|--|
+Plug 'romgrk/barbar.nvim'
 | `v` (lower) | V | Character mode |
 | `V` (upper) | V | Line mode |
 | `Ctrl+v` | V | Block mode |
@@ -93,6 +102,10 @@ let g:vimspector_enable_mappings = 'VISUAL_STUDIO'
 
 | Keymap | Mode | Usage |
 |--|--|--|
+| `Ctrl-h` | N | Move to the window on the left (`Ctrl-w h`) |
+| `Ctrl-j` | N | Move to the window below (`Ctrl-w j`) |
+| `Ctrl-k` | N | Move to the window above (`Ctrl-w k`)|
+| `Ctrl-l` | N | Move to the window on the right (`Ctrl-w l`) |
 | `Ctrl-w o` | N | Only one window. 'This one' |
 | `Ctrl-w =` | N | Make all windows/panes equal hheight & width |
 | `<Leader>|` | N | Split window to right (Which key mapping to `Ctrl-w v`) |

@@ -22,7 +22,7 @@ source $HOME/.config/nvim/plug-config/vim-surround.vim
 source $HOME/.config/nvim/plug-config/vim-rooter.vim
 source $HOME/.config/nvim/plug-config/vim-polyglot.vim
 source $HOME/.config/nvim/plug-config/vim-repeat.vim
-source $HOME/.config/nvim/plug-config/vim-illuminate.vim
+" source $HOME/.config/nvim/plug-config/vim-illuminate.vim
 source $HOME/.config/nvim/plug-config/coc/coc.vim
 source $HOME/.config/nvim/plug-config/coc/coc-extensions.vim
 source $HOME/.config/nvim/plug-config/omnisharp.vim
@@ -38,5 +38,7 @@ source $HOME/.config/nvim/plug-config/vim-floaterm.vim
 source $HOME/.config/nvim/plug-config/vim-commentary.vim
 source $HOME/.config/nvim/plug-config/vimspector.vim
 source $HOME/.config/nvim/plug-config/maximizer.vim
+" source $HOME/.config/nvim/plug-config/vim-vue-plugin.vim
 " Must be after theme selection
 source $HOME/.config/nvim/plug-config/vim-hexokinase.vim
+

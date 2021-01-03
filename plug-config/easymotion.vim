@@ -20,7 +20,7 @@ nmap <Leader>l <Plug>(easymotion-overwin-line)
 " map  <Leader>w <Plug>(easymotion-bd-w)
 " nmap <Leader>w <Plug>(easymotion-overwin-w)
 
-:hi EasyMotionTarget ctermfg=Blue cterm=Underline guifg=#FF5500
+hi EasyMotionTarget ctermfg=Blue cterm=Underline guifg=#ff5500
 
 " hi link EasyMotionTarget ErrorMsg
 " hi link EasyMotionShade  Comment
