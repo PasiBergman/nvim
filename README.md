@@ -21,8 +21,9 @@ Add Vimspector adapters in nvim:
 ## Dependencies
 
 For all features, please make sure that the following dependencies have been
-installed. Sample is based on macOS Homebrew. With Linux, another package manager
-most likely can be used.
+installed.
+
+### macOS / Homebrew
 
 ```shell
 brew tap "homebrew/bundle"
@@ -45,8 +46,27 @@ brew install nvm
 # Install python3 provider dependencies
 pip3 install pynvim
 pip3 install neovim-remote
-# Install latest node lts
-nvm install --lts
+# Install node v14.15.3 (or select newer LTS version)
+nvm install 14.15.3
+# Install node dependencies
+npm install -g neovim
+```
+
+### Debian / Ubuntu / Raspberry Pi OS
+
+```shell
+sudo apt update && sudo apt upgrade -y
+sudo apt install zsh git curl python3 python3-pip tmux neovim fzf ripgrep -y
+# Install oh my zsh
+sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+# Install nvm (node version manager)
+curl https://raw.githubusercontent.com/creationix/nvm/master/install.sh | bash
+source ~/.zshrc
+# Install python3 provider dependencies
+pip3 install pynvim
+pip3 install neovim-remote
+# Install node v14.15.3 (or select newer LTS version)
+nvm install 14.15.3
 # Install node dependencies
 npm install -g neovim
 ```
