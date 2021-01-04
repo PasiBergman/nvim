@@ -1,6 +1,7 @@
 autoload/
 session/
-undodir/
+undodir/*
+!undodir
 !undodir/dummy.txt
 
 slowsave
