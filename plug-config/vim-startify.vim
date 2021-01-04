@@ -62,3 +62,5 @@ let g:startify_bookmarks = [
 
 let g:startify_enable_special = 0
 
+" Set shada (vimfile) location
+set shada=!,'100,n$HOME/.config/nvim/files/info/viminfo

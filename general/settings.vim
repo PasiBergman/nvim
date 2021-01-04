@@ -69,5 +69,4 @@ autocmd FileType * setlocal formatoptions-=c formatoptions-=r formatoptions-=o
 " You can't stop me
 cmap w!! w !sudo tee %
 
-" Set viminfo (for startify)
 set shada=!,'100,n$HOME/.config/nvim/files/info/viminfo

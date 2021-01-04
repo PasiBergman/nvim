@@ -38,6 +38,7 @@ source $HOME/.config/nvim/plug-config/vim-floaterm.vim
 source $HOME/.config/nvim/plug-config/vim-commentary.vim
 source $HOME/.config/nvim/plug-config/vimspector.vim
 source $HOME/.config/nvim/plug-config/maximizer.vim
+source $HOME/.config/nvim/plug-config/cheat.sh-vim.vim
 " source $HOME/.config/nvim/plug-config/vim-vue-plugin.vim
 " Must be after theme selection
 source $HOME/.config/nvim/plug-config/vim-hexokinase.vim

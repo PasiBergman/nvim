@@ -82,6 +82,8 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     " Plug 'turbio/bracey.vim'
     " Vue plugin
     " Plug 'leafOfTree/vim-vue-plugin'
+    " Cheatsheet (https://cht.sh) integration
+    Plug 'dbeniamine/cheat.sh-vim'
 endif
 
 call plug#end()

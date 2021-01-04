@@ -169,3 +169,7 @@ let g:coc_disable_startup_warning = 1
 
 " Setup Prettier
 command! -nargs=0 Prettier :CocCommand prettier.formatFile
+
+" Use brighter red so that red-green colorbild can see the errors
+hi CocErrorSign ctermfg=9 guifg=#ff5500
+

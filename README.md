@@ -56,7 +56,8 @@ npm install -g neovim
 
 ```shell
 sudo apt update && sudo apt upgrade -y
-sudo apt install zsh git curl python3 python3-pip tmux neovim fzf ripgrep -y
+sudo apt install zsh git curl python3 python3-pip -y
+sudo apt install tmux neovim fzf ripgrep software-properties-common -y
 # Install oh my zsh
 sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 # Install nvm (node version manager)
