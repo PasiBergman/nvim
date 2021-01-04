@@ -41,24 +41,24 @@ let g:startify_session_persistence = 1
 let g:webdevicons_enable_startify = 1
 
 function! StartifyEntryFormat()
-        return 'WebDevIconsGetFileTypeSymbol(absolute_path) ." ". entry_path'
-    endfunction
+    return 'WebDevIconsGetFileTypeSymbol(absolute_path) ." ". entry_path'
+endfunction
 
 let g:startify_bookmarks = [
-            \ { 'n': '~/.config/nvim/' },
-            \ { 't': '~/.config/tmux/' },
-            \ { 'u': '~/Code/Keva/oet-ui/' },
-            \ { 'o': '~/Code/Keva/oet-api/' },
-            \ { 'm': '~/Code/Keva/Avaintiedot-Massatoimitus/' },
-            \ { 'i': '~/Code/Keva/Tyokykypolkuja.Infra/' },
-            \ { 'b': '~/Code/Keva/Tyokykypolkuja.WebAPI/' },
-            \ { 'w': '~/Code/Keva/Tyokykypolkuja.WebUI/' },
-            \ '~/Code/',
-            \ '~/Code/Keva',
-            \ '~/.config/',
-            \ '~/bin/',
-            \ '~/.zshrc',
-            \ ]
+        \ { 'n': '~/.config/nvim/' },
+        \ { 't': '~/.config/tmux/' },
+        \ { 'u': '~/Code/Keva/oet-ui/' },
+        \ { 'o': '~/Code/Keva/oet-api/' },
+        \ { 'm': '~/Code/Keva/Avaintiedot-Massatoimitus/' },
+        \ { 'i': '~/Code/Keva/Tyokykypolkuja.Infra/' },
+        \ { 'b': '~/Code/Keva/Tyokykypolkuja.WebAPI/' },
+        \ { 'w': '~/Code/Keva/Tyokykypolkuja.WebUI/' },
+        \ '~/Code/',
+        \ '~/Code/Keva',
+        \ '~/.config/',
+        \ '~/bin/',
+        \ '~/.zshrc',
+        \ ]
 
 let g:startify_enable_special = 0
 

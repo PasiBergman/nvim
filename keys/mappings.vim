@@ -25,8 +25,7 @@ else
   inoremap <expr> <c-k> ("\<C-p>")
 
   " I hate escape more than anything else
-  inoremap jk <Esc>
-  inoremap kj <Esc>
+  inoremap jj <Esc>
 
   " TAB in general mode will move to text buffer
   nnoremap <silent> <TAB> :bnext<CR>
@@ -67,10 +66,10 @@ else
   " nnoremap <silent> <M-h>    :vertical resize -2<CR>
   " nnoremap <silent> <M-l>    :vertical resize +2<CR>
 
-  nnoremap <silent> <C-Up>    :resize -2<CR>
-  nnoremap <silent> <C-Down>  :resize +2<CR>
-  nnoremap <silent> <C-Left>  :vertical resize -2<CR>
-  nnoremap <silent> <C-Right> :vertical resize +2<CR>
+  " nnoremap <silent> <C-Up>    :resize -2<CR>
+  " nnoremap <silent> <C-Down>  :resize +2<CR>
+  " nnoremap <silent> <C-Left>  :vertical resize -2<CR>
+  " nnoremap <silent> <C-Right> :vertical resize +2<CR>
 
   let g:elite_mode=0                      " Disable arrows"
   " Disable arrow movement, resize splits instead.
@@ -81,6 +80,9 @@ else
       nnoremap <C-Right> :vertical resize +2<CR>
   endif
 
+  " Use Ctrl-q to close buffer
+  nnoremap <C-q> :bd<CR>
+
 endif
 
 " Better nav for omnicomplete
@@ -88,11 +90,11 @@ inoremap <expr> <c-j> ("\<C-n>")
 inoremap <expr> <c-k> ("\<C-p>")
 
 " Help mappings simplify navigating the results of quickfix commands such as (among others) :helpgrep
-:nnoremap <S-F1>  :cc<CR>
-:nnoremap <F2>    :cnext<CR>
-:nnoremap <S-F2>  :cprev<CR>
-:nnoremap <F3>    :cnfile<CR>
-:nnoremap <S-F3>  :cpfile<CR>
-:nnoremap <F4>    :cfirst<CR>
-:nnoremap <S-F4>  :clast<CR>
+" :nnoremap <S-F1>  :cc<CR>
+" :nnoremap <F2>    :cnext<CR>
+" :nnoremap <S-F2>  :cprev<CR>
+" :nnoremap <F3>    :cnfile<CR>
+" :nnoremap <S-F3>  :cpfile<CR>
+" :nnoremap <F4>    :cfirst<CR>
+" :nnoremap <S-F4>  :clast<CR>
 

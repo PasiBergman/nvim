@@ -1,6 +1,9 @@
 autoload/
 session/
 
+undodir/
+!undodir/dummy.txt
+
 slowsave
 .netrwhist
 
