@@ -60,10 +60,17 @@ let g:vimspector_enable_mappings = 'VISUAL_STUDIO'
 
 ## Git (Fugitive)
 
-| Keymap | Mode | Usage |
-| ------ | ---- | ----- |
-|        |      |       |
-|        |      |       |
+| Keymap | Mode | Usage                                                          |
+| ------ | ---- | -------------------------------------------------------------- |
+| `:G`   | N    | Git status                                                     |
+| `dv`   | Fug  | Show differences of the file currently under cursor            |
+| `cc`   | Fug  | Commit staged files.                                           |
+| `-`    | Fug  | Stage/Unstage file (Or `s` stage, `u` unstage).                |
+| `:GV`  | N,V  | Open commit browser for the whole repository                   |
+| `:GV!` | N    | Open commit browser for the current file                       |
+| `:GV?` | N,V  | Fills the location list with the revisions of the current file |
+|        |      |                                                                |
+|        |      |                                                                |
 
 ## Git (Checkout)
 
@@ -116,6 +123,12 @@ let g:vimspector_enable_mappings = 'VISUAL_STUDIO'
 | `:tabo`    | N    | Close all other tabs except current one (:tabonly)    |
 | `:tab ba`  | N    | Edit all bufferes as tabs                             |
 |            |      |                                                       |
+
+## Undo(tree)
+
+| Keymap | Mode | Usage                             |
+| ------ | ---- | --------------------------------- |
+| `<F7>` | N    | Toggle Undotree (:UndotreeToggle) |
 
 ## Visual mode
 

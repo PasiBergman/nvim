@@ -1,7 +1,10 @@
 autoload/
 session/
+tags
 undodir/*
+# Exclude the directory
 !undodir
+# Exclude the dummy.txt file
 !undodir/dummy.txt
 
 slowsave

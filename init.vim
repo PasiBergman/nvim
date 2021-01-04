@@ -14,7 +14,7 @@
 source $HOME/.config/nvim/vim-plug/plugins.vim
 source $HOME/.config/nvim/general/settings.vim
 source $HOME/.config/nvim/keys/mappings.vim
-source $HOME/.config/nvim/keys/which-key.vim
+" source $HOME/.config/nvim/keys/which-key.vim
 source $HOME/.config/nvim/general/functions.vim
 source $HOME/.config/nvim/themes/vim-code-dark.vim
 source $HOME/.config/nvim/plug-config/easymotion.vim
@@ -27,7 +27,8 @@ source $HOME/.config/nvim/plug-config/coc/coc.vim
 source $HOME/.config/nvim/plug-config/coc/coc-extensions.vim
 source $HOME/.config/nvim/plug-config/omnisharp.vim
 source $HOME/.config/nvim/plug-config/fzf.vim
-source $HOME/.config/nvim/plug-config/gitgutter.vim
+" source $HOME/.config/nvim/plug-config/gitgutter.vim
+source $HOME/.config/nvim/plug-config/vim-signify.vim
 source $HOME/.config/nvim/plug-config/vim-closetag.vim
 source $HOME/.config/nvim/plug-config/vim-messenger.vim
 source $HOME/.config/nvim/plug-config/fugitive-azure-devops.vim
@@ -42,4 +43,5 @@ source $HOME/.config/nvim/plug-config/cheat.sh-vim.vim
 " source $HOME/.config/nvim/plug-config/vim-vue-plugin.vim
 " Must be after theme selection
 source $HOME/.config/nvim/plug-config/vim-hexokinase.vim
+source $HOME/.config/nvim/plug-config/undotree.vim
 

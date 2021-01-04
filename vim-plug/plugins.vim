@@ -23,15 +23,14 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'tpope/vim-surround'
     " Nvim sets the project root path
     Plug 'airblade/vim-rooter'
-    " Auto set indent settings
+    " vim-sleuth plugin automatically adjusts 'shiftwidth' and 'expandtab' 
+    " heuristically based on the current file
     Plug 'tpope/vim-sleuth'
     " Better Syntax Support
     Plug 'sheerun/vim-polyglot'
     " Cool Icons
     Plug 'kyazdani42/nvim-web-devicons'
     Plug 'ryanoasis/vim-devicons'
-    " Highlight matches to word under cursor
-    " Plug 'RRethy/vim-illuminate'
     " Auto pairs for '(' '[' '{'
     Plug 'jiangmiao/auto-pairs'
     " Closetags
@@ -56,7 +55,7 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'stsewd/fzf-checkout.vim'
     " Git
     Plug 'tpope/vim-fugitive'
-    Plug 'airblade/vim-gitgutter'
+    Plug 'mhinz/vim-signify'
     Plug 'junegunn/gv.vim'
     Plug 'rhysd/git-messenger.vim'
     Plug 'tpope/vim-rhubarb' " Gbrowse for github
@@ -68,7 +67,7 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'norcalli/nvim-colorizer.lua'
     " TypeScript syntax (highlighting)
     Plug 'HerringtonDarkholme/yats.vim'
-    Plug 'liuchengxu/vim-which-key'
+    " Plug 'liuchengxu/vim-which-key'
     " Floating window
     Plug 'voldikss/vim-floaterm'
     " Debugging
@@ -84,6 +83,7 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     " Plug 'leafOfTree/vim-vue-plugin'
     " Cheatsheet (https://cht.sh) integration
     Plug 'dbeniamine/cheat.sh-vim'
+    Plug 'mbbill/undotree'
 endif
 
 call plug#end()

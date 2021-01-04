@@ -95,6 +95,6 @@ inoremap <expr> <c-k> ("\<C-p>")
 " :nnoremap <S-F2>  :cprev<CR>
 " :nnoremap <F3>    :cnfile<CR>
 " :nnoremap <S-F3>  :cpfile<CR>
-" :nnoremap <F4>    :cfirst<CR>
+  :nnoremap <F4>    :cfirst<CR>
 " :nnoremap <S-F4>  :clast<CR>
 
