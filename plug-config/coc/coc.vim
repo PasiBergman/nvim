@@ -144,8 +144,8 @@ let g:coc_explorer_global_presets = {
 \     'file.child.template': '[selection | clip | 1] [git | 1] [indent][icon | 1] [filename omitCenter 1]'
 \   }
 \ }
-nmap <silent> <Ctrl-e> :CocCommand explorer<CR>
-nnoremap <silent> <Ctrl-e> :CocCommand explorer<CR>
+nmap <silent> <C-e> :CocCommand explorer<CR>
+nnoremap <silent> <C-e> :CocCommand explorer<CR>
 autocmd BufEnter * if (winnr("$") == 1 && &filetype == 'coc-explorer') | q | endif
 
 " Snippets
@@ -173,3 +173,8 @@ command! -nargs=0 Prettier :CocCommand prettier.formatFile
 " Use brighter red so that red-green colorbild can see the errors
 hi CocErrorSign ctermfg=9 guifg=#ff5500
 
+" Bookmarks (coc-bookmark)
+" nmap <Leader>Bt <Plug>(coc-bookmark-toggle)
+" nmap <Leader>Bn <Plug>(coc-bookmark-next)
+" nmap <Leader>Bp <Plug>(coc-bookmark-prev)
+" nmap <Leader>Ba <Plug>(coc-bookmark-annotate)

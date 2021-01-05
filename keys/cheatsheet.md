@@ -132,23 +132,21 @@ let g:vimspector_enable_mappings = 'VISUAL_STUDIO'
 
 ## Visual mode
 
-| Keymap | Mode | Usage |
-| ------ | ---- | ----- |
-
-Plug 'romgrk/barbar.nvim'
-| `v` (lower) | V | Character mode |
-| `V` (upper) | V | Line mode |
-| `Ctrl+v` | V | Block mode |
+| Keymap      | Mode | Usage          |
+| ----------- | ---- | -------------- |
+| `v` (lower) | V    | Character mode |
+| `V` (upper) | V    | Line mode      |
+| `Ctrl+v`    | V    | Block mode     |
 
 ## Window management
 
-| Keymap      | Mode | Usage                                                   |
-| ----------- | ---- | ------------------------------------------------------- |
-| `Ctrl-h`    | N    | Move to the window on the left (`Ctrl-w h`)             |
-| `Ctrl-j`    | N    | Move to the window below (`Ctrl-w j`)                   |
-| `Ctrl-k`    | N    | Move to the window above (`Ctrl-w k`)                   |
-| `Ctrl-l`    | N    | Move to the window on the right (`Ctrl-w l`)            |
-| `Ctrl-w o`  | N    | Only one window. 'This one'                             |
-| `Ctrl-w =`  | N    | Make all windows/panes equal hheight & width            |
-| `<Leader>`  | N    | Split window to right (Which key mapping to `Ctrl-w v`) |
-| `<Leader>-` | N    | Split window to below (Which key mapping to `Ctrl-w s)  |
+| Keymap       | Mode | Usage                                                   |
+| ------------ | ---- | ------------------------------------------------------- |
+| `Ctrl-h`     | N    | Move to the window on the left (`Ctrl-w h`)             |
+| `Ctrl-j`     | N    | Move to the window below (`Ctrl-w j`)                   |
+| `Ctrl-k`     | N    | Move to the window above (`Ctrl-w k`)                   |
+| `Ctrl-l`     | N    | Move to the window on the right (`Ctrl-w l`)            |
+| `Ctrl-w o`   | N    | Only one window. 'This one'                             |
+| `Ctrl-w =`   | N    | Make all windows/panes equal hheight & width            |
+| `<Leader>\|` | N    | Split window to right (Which key mapping to `Ctrl-w v`) |
+| `<Leader>-`  | N    | Split window to below (Which key mapping to `Ctrl-w s)  |

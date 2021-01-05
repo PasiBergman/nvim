@@ -41,6 +41,7 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     " Plug 'joshdick/onedark.vim'
     Plug 'tomasiser/vim-code-dark'
     Plug 'vim-airline/vim-airline-themes'
+    " Plug 'ntk148v/vim-horizon' " Horizon warm dark colorscheme inspired by Visual Studio Code Horizon Theme
     " Plug 'altercation/vim-colors-solarized'
     " Intellisense
     Plug 'neoclide/coc.nvim', {'branch': 'release'}
@@ -58,8 +59,8 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'mhinz/vim-signify'
     Plug 'junegunn/gv.vim'
     Plug 'rhysd/git-messenger.vim'
-    Plug 'tpope/vim-rhubarb' " Gbrowse for github
-    Plug 'cedarbaum/fugitive-azure-devops.vim' "Gbrowse for Azure DevOps
+    " Plug 'tpope/vim-rhubarb' " Gbrowse for github
+    " Plug 'cedarbaum/fugitive-azure-devops.vim' "Gbrowse for Azure DevOps
     " Start Screen
     Plug 'mhinz/vim-startify'
     " Color visualizers
