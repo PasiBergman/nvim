@@ -174,7 +174,10 @@ command! -nargs=0 Prettier :CocCommand prettier.formatFile
 hi CocErrorSign ctermfg=9 guifg=#ff5500
 
 " Bookmarks (coc-bookmark)
-" nmap <Leader>Bt <Plug>(coc-bookmark-toggle)
-" nmap <Leader>Bn <Plug>(coc-bookmark-next)
-" nmap <Leader>Bp <Plug>(coc-bookmark-prev)
-" nmap <Leader>Ba <Plug>(coc-bookmark-annotate)
+nmap <Leader>Bt <Plug>(coc-bookmark-toggle)
+nmap <Leader>Bn <Plug>(coc-bookmark-next)
+nmap <Leader>Bp <Plug>(coc-bookmark-prev)
+nmap <Leader>Ba <Plug>(coc-bookmark-annotate)
+
+let g:coc_data_home="$HOME/.config/nvim/plug-config/coc/data"
+

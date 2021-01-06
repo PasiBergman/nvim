@@ -41,7 +41,7 @@ else
   " Alternate way to save
   nnoremap <silent> <C-s> :w<CR>
   " <TAB>: completion.
-  inoremap <silent> <expr><TAB> pumvisible() ? "\<C-n>" : "\<TAB>"
+  " inoremap <silent> <expr><TAB> pumvisible() ? "\<C-n>" : "\<TAB>"
 
   " Better window navigation
   nnoremap <C-h> <C-w>h

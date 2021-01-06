@@ -89,24 +89,51 @@
   "wxss.validate": false,
 
   // explorer
-  "explorer.width": 30,
-  "explorer.file.root.template": "[icon] [git] [hidden & 1][root]",
+  "explorer.width": 36,
+  "explorer.quitOnOpen": true,
+  "explorer.debug": false,
   "explorer.icon.enableNerdfont": true,
-  "explorer.previewAction.onHover": false,
+  "explorer.previewAction.onHover": "labeling",
   "explorer.icon.enableVimDevicons": false,
   "explorer.file.showHiddenFiles": true,
+  "explorer.git.showIgnored": true,
+  "explorer.datetime.format": "dd.MM.yyyy HH:mm:ss",
+  "explorer.file.git.showUntrackedFiles": true,
   "explorer.git.icon.status.unmerged": "C",
-  "explorer.git.icon.rootStatus.modified": "U",
-  "explorer.git.icon.status.modified": "U",
-  "explorer.git.icon.status.added": "+",
+  "explorer.git.icon.rootStatus.modified": "M",
+  "explorer.git.icon.rootStatus.ahead": "⇡",
+  "explorer.git.icon.rootStatus.behind": "⇣",
+  "explorer.git.icon.rootStatus.added": "A",
+  "explorer.git.icon.rootStatus.stashed": "S",
+  "explorer.git.icon.rootStatus.deleted": "D",
+  "explorer.git.icon.rootStatus.conflicted": "≠",
+  "explorer.git.icon.status.modified": "M",
+  "explorer.git.icon.status.added": "A",
+  // "explorer.git.icon.status.mixed": "◎",
   "explorer.git.icon.status.deleted": "D",
   "explorer.git.icon.status.renamed": "R",
   "explorer.git.icon.status.copied": "C",
-  "explorer.file.git.showUntrackedFiles": false,
+  "explorer.git.icon.status.untracked": "U",
+  /* "ˣ" */
+  "explorer.git.icon.status.ignored": "⌀",
   "explorer.keyMappings.global": {
     "<cr>": ["expandable?", "expand", "open"],
     "v": "open:vsplit"
   },
+  "explorer.sources": [
+    {
+      "name": "bookmark",
+      "expand": false
+    },
+    {
+      "name": "buffer",
+      "expand": true
+    },
+    {
+      "name": "file",
+      "expand": true
+    }
+  ],
 
   //"languageserver": {
   //  "lua": {
