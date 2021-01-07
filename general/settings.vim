@@ -27,7 +27,7 @@ set shada=!,'100,n$HOME/.config/nvim/files/info/viminfo
 
 set iskeyword+=-                        " treat dash separated words as a word text object"
 set formatoptions-=cro                  " Stop newline continution of comments
-set nowrap                              " Display long lines as just one line
+" set nowrap                              " Display long lines as just one line
 set whichwrap+=<,>,[,],h,l              " Wrap long line when cursor keys are used.
 set hidden                              " Required to keep multiple buffers open multiple buffers
 set encoding=utf-8                      " The encoding displayed

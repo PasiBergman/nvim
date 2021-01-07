@@ -16,3 +16,5 @@ hi DiffDelete ctermfg=12 ctermbg=52 guifg=Blue guibg=#FF3300
 hi DiffChange ctermbg=52 guibg=#333333
 hi DiffAdd ctermbg=237 guibg=#525B3D
 hi DiffText ctermbg=52 guibg=#FF3300 " #6F1313
+
+hi CursorLine ctermbg=52 guibg=#2B2B2B
