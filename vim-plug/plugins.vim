@@ -18,7 +18,9 @@ call plug#begin('~/.config/nvim/autoload/plugged')
   else
 
     " Easymotion
-    Plug 'easymotion/vim-easymotion'
+    " Plug 'easymotion/vim-easymotion'
+    " Sneak - easymotion replacement
+    Plug 'justinmk/vim-sneak'
     " Surround
     Plug 'tpope/vim-surround'
     " Nvim sets the project root path
@@ -43,7 +45,7 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'vim-airline/vim-airline-themes'
     " Plug 'ntk148v/vim-horizon' " Horizon warm dark colorscheme inspired by Visual Studio Code Horizon Theme
     " Plug 'altercation/vim-colors-solarized'
-    " Intellisense
+    " Intellioense
     Plug 'neoclide/coc.nvim', {'branch': 'release'}
     " Snippets
     Plug 'honza/vim-snippets'
@@ -68,7 +70,7 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'norcalli/nvim-colorizer.lua'
     " TypeScript syntax (highlighting)
     Plug 'HerringtonDarkholme/yats.vim'
-    " Plug 'liuchengxu/vim-which-key'
+    Plug 'liuchengxu/vim-which-key'
     " Floating window
     Plug 'voldikss/vim-floaterm'
     " Debugging

@@ -98,6 +98,21 @@ let g:vimspector_enable_mappings = 'VISUAL_STUDIO'
 | `n`    | N    | Repeat searh forward                       |
 | `N`    | N    | Repeat searh backword                      |
 
+## Sneak (justinmk/vim-sneak)
+
+| Keymap          | Mode | Usage                                                         |
+| --------------- | ---- | ------------------------------------------------------------- |
+| `s{char}{char}` | N    | Activate search in text to jump forward to desired location.  |
+| `S{char}{char}` | N    | Activate search in text to jump backward to desired location. |
+| `S{char}{char}` | N    | Activate search in text to jump backward to desired location. |
+| `;`             | N    | Go to next match                                              |
+| `3;`            | N    | Skip to 3rd match from the current position.                  |
+| `<Ctrl-o>`      | N    | Go back to the starting point.                                |
+| `s<Enter>`      | N    | Repeat the last Sneak-search                                  |
+| `yszxy]`        | N    | Surround in brackets up to `xy>`. Sneak is the `z`.           |
+| `gUz\}`         | N    | Upper-case the text from the cursor until `\}`                |
+|                 |      |                                                               |
+
 ## Surround (tpope/vim-surround)
 
 | Keymap           | Mode | Usage                                                                |

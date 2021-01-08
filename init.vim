@@ -14,10 +14,11 @@
 source $HOME/.config/nvim/vim-plug/plugins.vim
 source $HOME/.config/nvim/general/settings.vim
 source $HOME/.config/nvim/keys/mappings.vim
-" source $HOME/.config/nvim/keys/which-key.vim
+source $HOME/.config/nvim/keys/which-key.vim
 source $HOME/.config/nvim/general/functions.vim
 source $HOME/.config/nvim/themes/vim-code-dark.vim
-source $HOME/.config/nvim/plug-config/easymotion.vim
+" source $HOME/.config/nvim/plug-config/easymotion.vim
+source $HOME/.config/nvim/plug-config/vim-sneak.vim
 source $HOME/.config/nvim/plug-config/vim-surround.vim
 source $HOME/.config/nvim/plug-config/vim-rooter.vim
 source $HOME/.config/nvim/plug-config/vim-polyglot.vim

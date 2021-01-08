@@ -1,6 +1,4 @@
 let g:coc_global_extensions = [
-  \ 'coc-actions',
-  \ 'coc-bookmark',
   \ 'coc-css',
   \ 'coc-cssmodules',
   \ 'coc-emmet',
@@ -31,4 +29,4 @@ let g:coc_global_extensions = [
   \ 'coc-yaml',
   \ 'coc-yank',
   \ ]
- 
+
