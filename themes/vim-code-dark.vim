@@ -20,6 +20,7 @@ hi DiffText ctermbg=52 guibg=#FF3300 " #6F1313
 hi CursorLine ctermbg=52 guibg=#333333
 hi CursorColumn ctermbg=52 guibg=#1F1F1F
 
+" Cursorline only visible in the current (active) window
 augroup CursorLine
     au!
     au VimEnter,WinEnter,BufWinEnter * setlocal cursorline
