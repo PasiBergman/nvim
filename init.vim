@@ -46,3 +46,4 @@ source $HOME/.config/nvim/plug-config/cheat.sh-vim.vim
 source $HOME/.config/nvim/plug-config/vim-hexokinase.vim
 source $HOME/.config/nvim/plug-config/undotree.vim
 
+luafile $HOME/.config/nvim/lua/plug-colorizer.lua
