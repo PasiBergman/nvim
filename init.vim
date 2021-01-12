@@ -49,3 +49,4 @@ source $HOME/.config/nvim/themes/vim-code-dark.vim
 source $HOME/.config/nvim/themes/vim-airline.vim
 
 luafile $HOME/.config/nvim/lua/plug-colorizer.lua
+
