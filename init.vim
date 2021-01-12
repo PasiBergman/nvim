@@ -16,7 +16,6 @@ source $HOME/.config/nvim/general/settings.vim
 source $HOME/.config/nvim/keys/mappings.vim
 source $HOME/.config/nvim/keys/which-key.vim
 source $HOME/.config/nvim/general/functions.vim
-source $HOME/.config/nvim/themes/vim-code-dark.vim
 " source $HOME/.config/nvim/plug-config/easymotion.vim
 source $HOME/.config/nvim/plug-config/vim-sneak.vim
 source $HOME/.config/nvim/plug-config/vim-surround.vim
@@ -45,5 +44,8 @@ source $HOME/.config/nvim/plug-config/cheat.sh-vim.vim
 " Must be after theme selection
 source $HOME/.config/nvim/plug-config/vim-hexokinase.vim
 source $HOME/.config/nvim/plug-config/undotree.vim
+
+source $HOME/.config/nvim/themes/vim-code-dark.vim
+source $HOME/.config/nvim/themes/vim-airline.vim
 
 luafile $HOME/.config/nvim/lua/plug-colorizer.lua
