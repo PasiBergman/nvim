@@ -23,7 +23,7 @@ let g:airline#extensions#coc#enabled = 1
 let g:airline#extensions#tabline#fnamemod = ':t'
 
 " enable powerline fonts
-let g:airline_powerline_fonts = 1
+" let g:airline_powerline_fonts = 0
 let g:airline_left_sep = ''
 let g:airline_right_sep = ''
 let g:airline_right_alt_sep = ''
@@ -47,7 +47,7 @@ set noshowmode
 
 " Sections
 " let g:airline_section_c = ''
-let g:airline_section_a = " NVCode"
+" let g:airline_section_a = " NVCode"
 " let g:airline_section_a = ""
 let g:airline_section_y = ''
 let g:webdevicons_enable_airline_tabline = 1
