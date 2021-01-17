@@ -42,8 +42,8 @@ set t_Co=256                            " Support 256 colors
 set conceallevel=0                      " So that I can see `` in markdown files
 set laststatus=2                        " Always display the status line
 set cursorline                          " Enable highlighting of the current line
-set textwidth=100                       " Specify text width to 100 instead of old 80
-set colorcolumn=+1                      " Mark the column textwidth+1
+" set textwidth=100                       " Specify text width to 100 instead of old 80
+" set colorcolumn=+1                      " Mark the column textwidth+1
 set background=dark                     " tell vim what the background color looks like
 set showtabline=2                       " Always show tabs
 " set noshowmode                          " We don't need to see things like -- INSERT -- anymore
@@ -70,5 +70,5 @@ let loaded_netrwPlugin = 1
 autocmd FileType * setlocal formatoptions-=c formatoptions-=r formatoptions-=o
 
 " You can't stop me
-cmap w!! w !sudo tee %
+" cmap w!! w !sudo tee %
 

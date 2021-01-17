@@ -92,11 +92,12 @@ let g:vimspector_enable_mappings = 'VISUAL_STUDIO'
 
 ## Search
 
-| Keymap | Mode | Usage                                      |
-| ------ | ---- | ------------------------------------------ |
-| `noh`  | N    | Turn of search highlight until next search |
-| `n`    | N    | Repeat searh forward                       |
-| `N`    | N    | Repeat searh backword                      |
+| Keymap  | Mode | Usage                                            |
+| ------- | ---- | ------------------------------------------------ |
+| `noh`   | N    | Turn of search highlight until next search       |
+| `n`     | N    | Repeat searh forward                             |
+| `N`     | N    | Repeat searh backword                            |
+| `#`/`*` | N    | Search and highlight words matching below cursor |
 
 ## Sneak (justinmk/vim-sneak)
 
@@ -104,14 +105,14 @@ let g:vimspector_enable_mappings = 'VISUAL_STUDIO'
 | --------------- | ---- | ------------------------------------------------------------- |
 | `s{char}{char}` | N    | Activate search in text to jump forward to desired location.  |
 | `S{char}{char}` | N    | Activate search in text to jump backward to desired location. |
-| `S{char}{char}` | N    | Activate search in text to jump backward to desired location. |
 | `;`             | N    | Go to next match                                              |
 | `3;`            | N    | Skip to 3rd match from the current position.                  |
 | `<Ctrl-o>`      | N    | Go back to the starting point.                                |
 | `s<Enter>`      | N    | Repeat the last Sneak-search                                  |
 | `yszxy]`        | N    | Surround in brackets up to `xy>`. Sneak is the `z`.           |
 | `gUz\}`         | N    | Upper-case the text from the cursor until `\}`                |
-|                 |      |                                                               |
+| `cl`            | N    | Vim `s` (delete char and insert)remapped to `cl`              |
+| `cc`            | N    | Vim `S` (delete setence and insert)remapped to `cc`           |
 
 ## Surround (tpope/vim-surround)
 
@@ -123,7 +124,6 @@ let g:vimspector_enable_mappings = 'VISUAL_STUDIO'
 | `yss)`           | N    | Surround sentence with ()                                            |
 | `S{to}`          | V    | In visual mode, surround selection with {to}                         |
 | `ys{action}{to}` | N    | Add {to} surrounds based on {action}                                 |
-|                  |      |                                                                      |
 
 ## Tabs
 
@@ -162,6 +162,5 @@ let g:vimspector_enable_mappings = 'VISUAL_STUDIO'
 | `Ctrl-k`     | N    | Move to the window above (`Ctrl-w k`)                   |
 | `Ctrl-l`     | N    | Move to the window on the right (`Ctrl-w l`)            |
 | `Ctrl-w o`   | N    | Only one window. 'This one'                             |
-| `Ctrl-w =`   | N    | Make all windows/panes equal hheight & width            |
 | `<Leader>\|` | N    | Split window to right (Which key mapping to `Ctrl-w v`) |
 | `<Leader>-`  | N    | Split window to below (Which key mapping to `Ctrl-w s)  |

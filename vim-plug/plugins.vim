@@ -7,7 +7,8 @@ endif
 
 call plug#begin('~/.config/nvim/autoload/plugged')
   " Easier comments
-  Plug 'tpope/vim-commentary'
+  " Plug 'tpope/vim-commentary'
+  Plug 'tomtom/tcomment_vim'
   " Remap . so that plugins can tap into it
   Plug 'tpope/vim-repeat'
 
@@ -83,10 +84,11 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     " HTML/CSS live server
     " Plug 'turbio/bracey.vim'
     " Vue plugin
-    " Plug 'leafOfTree/vim-vue-plugin'
+    Plug 'leafOfTree/vim-vue-plugin'
     " Cheatsheet (https://cht.sh) integration
     Plug 'dbeniamine/cheat.sh-vim'
     Plug 'mbbill/undotree'
+    Plug 'Yggdroot/indentLine'
 endif
 
 call plug#end()

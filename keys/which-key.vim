@@ -33,21 +33,20 @@ let g:which_key_max_size = 0
 
 " Hide status line
 autocmd! FileType which_key
+
 autocmd  FileType which_key set laststatus=0 noshowmode noruler
   \| autocmd BufLeave <buffer> set laststatus=2 noshowmode ruler
 
 
 " Single mappings
-" let g:which_key_map['/'] = [ ':call Comment()'                                 , 'comment' ]
-let g:which_key_map['.'] = [ ':e $MYVIMRC'                                     , 'init.vim' ]
-let g:which_key_map[';'] = [ ':Commands'                                       , 'commands' ]
+" let g:which_key_map['/'] = [ ':call Comment()'                                 , 'comm'Reload init.vich_key_mapch_key_mapm'
+let g:which_key_map[','] = [ ':so $MYVIMRC'                                    , 'Reload init.vim' ]
+let g:which_key_map[';'] = [ ':Commands'                                       , 'commands'        ]
 let g:which_key_map['='] = [ '<C-W>='                                          , 'balance windows' ]
-let g:which_key_map['-'] = [ '<C-W>s'                                          , 'split below']
-let g:which_key_map['|'] = [ '<C-W>v'                                          , 'split right']
-let g:which_key_map['e'] = [ ':CocCommand explorer --toggle'                   , 'explorer' ]
-let g:which_key_map['f'] = [ '<Plug>easymotion-bd-f'                      , 'move to {char} ' ]
+let g:which_key_map['-'] = [ '<C-W>s'                                          , 'split below'     ]
+let g:which_key_map['|'] = [ '<C-W>v'                                          , 'split right'     ]
+let g:which_key_map['e'] = [ ':CocCommand explorer --toggle'                   , 'explorer'        ]
 " let g:which_key_map['n'] = [ ':let @/ = ""'                                    , 'no highlight' ]
-" let g:which_key_map['o'] = [ ':RnvimrToggle'                                   , 'open' ]
 " let g:which_key_map['p'] = [ ':Files'                                          , 'search files' ]
 let g:which_key_map['q'] = [ '<Plug>(coc-fix-current)'                         , 'quickfix' ]
 " let g:which_key_map['T'] = [ ':TSHighlightCapturesUnderCursor'                 , 'treesitter highlight' ]
@@ -104,7 +103,7 @@ let g:which_key_map['q'] = [ '<Plug>(coc-fix-current)'                         ,
 "      \ }
 
 "" d is for debug
-"let g:which_key_map.d = {
+" let g:which_key_map.d = {
 "      \ 'name' : '+debug' ,
 "      \ 'b' : ['<Plug>VimspectorToggleBreakpoint'              , 'breakpoint'],
 "      \ 'B' : ['<Plug>VimspectorToggleConditionalBreakpoint'   , 'conditional breakpoint'],
@@ -119,9 +118,9 @@ let g:which_key_map['q'] = [ '<Plug>(coc-fix-current)'                         ,
 "      \ 'r' : ['<Plug>VimspectorRestart'                       , 'restart'],
 "      \ 's' : ['<Plug>VimspectorStop'                          , 'stop'],
 "      \ }
-
-"" f is for find and replace
-"let g:which_key_map.f = {
+"
+" " f is for find and replace
+" let g:which_key_map.f = {
 "      \ 'name' : '+find & replace' ,
 "      \ 'f' : [':Farr --source=vimgrep'    , 'file'],
 "      \ 'p' : [':Farr --source=rgnvim'     , 'project'],

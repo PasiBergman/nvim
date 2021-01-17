@@ -36,14 +36,16 @@ source $HOME/.config/nvim/plug-config/vim-startify.vim
 source $HOME/.config/nvim/plug-config/vim-fugitive.vim
 source $HOME/.config/nvim/plug-config/fzf-checkout.vim
 source $HOME/.config/nvim/plug-config/vim-floaterm.vim
-source $HOME/.config/nvim/plug-config/vim-commentary.vim
+" source $HOME/.config/nvim/plug-config/vim-commentary.vim
+source $HOME/.config/nvim/plug-config/tcomment.vim
 source $HOME/.config/nvim/plug-config/vimspector.vim
 source $HOME/.config/nvim/plug-config/maximizer.vim
 source $HOME/.config/nvim/plug-config/cheat.sh-vim.vim
-" source $HOME/.config/nvim/plug-config/vim-vue-plugin.vim
+source $HOME/.config/nvim/plug-config/vim-vue-plugin.vim
 " Must be after theme selection
 source $HOME/.config/nvim/plug-config/vim-hexokinase.vim
 source $HOME/.config/nvim/plug-config/undotree.vim
+source $HOME/.config/nvim/plug-config/indentLine.vim
 
 source $HOME/.config/nvim/themes/vim-code-dark.vim
 source $HOME/.config/nvim/themes/vim-airline.vim
