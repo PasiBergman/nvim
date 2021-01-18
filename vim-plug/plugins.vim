@@ -7,7 +7,6 @@ endif
 
 call plug#begin('~/.config/nvim/autoload/plugged')
   " Easier comments
-  " Plug 'tpope/vim-commentary'
   Plug 'tomtom/tcomment_vim'
   " Remap . so that plugins can tap into it
   Plug 'tpope/vim-repeat'
@@ -19,13 +18,12 @@ call plug#begin('~/.config/nvim/autoload/plugged')
   else
 
     " Easymotion
-    " Plug 'easymotion/vim-easymotion'
     " Sneak - easymotion replacement
     Plug 'justinmk/vim-sneak'
     " Surround
     Plug 'tpope/vim-surround'
     " Nvim sets the project root path
-    Plug 'airblade/vim-rooter'
+    " Plug 'airblade/vim-rooter'
     " vim-sleuth plugin automatically adjusts 'shiftwidth' and 'expandtab' 
     " heuristically based on the current file
     Plug 'tpope/vim-sleuth'
@@ -54,8 +52,7 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'OmniSharp/omnisharp-vim'
     " Fzf
     Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
-    Plug 'yuki-ycino/fzf-preview.vim', { 'branch': 'release', 'do': ':UpdateRemotePlugins' }
-    Plug 'junegunn/fzf.vim'
+    Plug 'yuki-ycino/fzf-preview.vim', { 'branch': 'release/rpc' }
     Plug 'stsewd/fzf-checkout.vim'
     " Git
     Plug 'tpope/vim-fugitive'

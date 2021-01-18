@@ -23,10 +23,10 @@ hi CursorLine ctermbg=52 guibg=#333333
 hi CursorColumn ctermbg=52 guibg=#1F1F1F
 
 " Transparency
-highlight Normal ctermbg=none
-highlight NonText ctermbg=none
-highlight Normal guibg=none
-highlight NonText guibg=none
+" highlight Normal ctermbg=none
+" highlight NonText ctermbg=none
+" highlight Normal guibg=none
+" highlight NonText guibg=none
 
 " Cursorline only visible in the current (active) window
 augroup CursorLine
